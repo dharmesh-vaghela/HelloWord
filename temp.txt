@@ -1,0 +1,52 @@
+AppEmail
+errorEmail
+SMTPServer
+
+
+
+
+TargetConnectionString
+
+
+SqlPackage.exe /Action:Publish /SourceFile:D:\Projects\R5CloneDW\bin\Debug\R5CloneDW.dacpac /Profile:D:\Projects\R5CloneDW\R5CloneDW.publish.xml
+
+Give name to this job I created name as sampledb_backup: 
+
+Go to the second tab STEPS for what we performed in the database:
+
+Click new and give new name, then what type of language is to be selected. I am selecting T-SQL
+
+
+Then, pick the advanced button whether you have arranged one more step or finished my job you have used by this window:
+
+If job is a failure, what's next? You can run another job or quiet the job
+
+After completing all these steps which login to perform this job, so you choose logins: 
+
+Click ok, then click on the SCHEDULING tab
+
+Give the name that you already created, time, occurs, time, date for user options
+
+
+Other three tabs like alerts, notifications, targets is your choice of action can be performed like sending mail, etc. That’s all. If there are any modifications to be done after saving that job, go to SQL Server agent->jobs->sampledb_backup->double click, then modify it: 
+
+
+Strip out all of the NowTranscribe user database access
+
+
+Strip out all of the NowTranscribe user database access-
+Add loggedinUser password into project properties.
+So we can retrieve and use it when user has selected remember me.
+
+
+User Registration Changes
+
+
+Application close issue
+
+
+GenerateNTApiKey
+
+
+
+https://github.com/account/plans
